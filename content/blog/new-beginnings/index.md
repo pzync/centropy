@@ -1,7 +1,7 @@
 ---
-title: New Beginnings
+title: When stuck at the beginning, start from the middle.
 date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: Sounds like something the mad hatter from Alice in Wonderland might say. But it's a tried-and-tested formula.
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and

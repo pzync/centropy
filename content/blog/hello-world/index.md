@@ -1,7 +1,7 @@
 ---
-title: Hello World
+title: Welcome to Centropy, dear fellow creator!
 date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+description: A new tree in the digital garden of the interwebs.
 ---
 
 This is my first post on my new fake blog! How exciting!
