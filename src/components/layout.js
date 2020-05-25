@@ -14,7 +14,7 @@ const Layout = ({ location, title, children }) => {
           marginBottom: rhythm(1.5),
           marginTop: 0,
           fontFamily: 'monospace',
-          color: "#06f"
+          color: "#f06"
         }}
       >
         <Link
@@ -36,7 +36,7 @@ const Layout = ({ location, title, children }) => {
           // opacity: "0.8",
           marginTop: 0,
           fontFamily: 'monospace',
-          color: "#06f"
+          color: "#f06"
         }}
       >
         <Link
