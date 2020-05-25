@@ -15,13 +15,13 @@ Wordpress2016.overrideThemeStyles = () => {
       color: "#06f"
     },
     body: {
-      fontFamily: "Inter",
+      fontFamily: "Inter,-apple-system,BlinkMacSystemFont,sans-serif",
       fontSize: "1.1rem",
       textRendering: "optimizeLegibility",
       '-webkitFontSmoothing': "antialiased"
     },
     'h1 , h2 , h3 , h4 , h5 , h6 ' : {
-      fontFamily: "Inter"
+      fontFamily: "Inter,-apple-system,BlinkMacSystemFont,sans-serif"
     }
   }
 }
