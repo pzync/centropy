@@ -1,11 +1,28 @@
 import Typography from "typography"
 import Wordpress2016 from "typography-theme-wordpress-2016"
+require('typeface-inter')
+
+// the following overrides are based on Dan Abramov's Overreacted.io's 
+// github repo at:
+// https://github.com/gaearon/overreacted.io/blob/master/src/utils/typography.js
 
 Wordpress2016.overrideThemeStyles = () => {
   return {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
+    a: {
+      color: "#06f"
+    },
+    body: {
+      fontFamily: "Inter",
+      fontSize: "1.1rem",
+      textRendering: "optimizeLegibility",
+      '-webkitFontSmoothing': "antialiased"
+    },
+    'h1 , h2 , h3 , h4 , h5 , h6 ' : {
+      fontFamily: "Inter"
+    }
   }
 }
 
