@@ -62,10 +62,17 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <main>{children}</main>
+      <hr
+          style={{
+            marginBottom: rhythm(1),
+          }}
+        />
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()} | For any idea / feedback, reach out on 
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <a href="https://twitter.com/shekhargurav">twitter</a>
+        {` `} or {` `}
+        <a href="mailto:webmaster@example.com">email</a>
       </footer>
     </div>
   )
