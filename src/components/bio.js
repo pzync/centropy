@@ -57,10 +57,8 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author.name}</strong> {author.summary}
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+        Notes on managing yourself as a Creator. Updated based on research & self-reflections. By <a href={`https://twitter.com/${social.twitter}`}>
+          Shekhar Gurav
         </a>
       </p>
     </div>
