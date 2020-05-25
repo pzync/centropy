@@ -52,7 +52,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
+              {/* <small>{node.frontmatter.date}</small> */}
             </header>
             <section>
               <p
