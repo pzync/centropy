@@ -5,7 +5,7 @@ module.exports = {
       name: `Shekhar Gurav`,
       summary: `Notes on managing yourself as a creator`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Shekhar Gurav's mostly self-directed notes on how to manage yourself as a Creator. To provide mental models and digital plus physical tools during the act of creation.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `shekhargurav`,
