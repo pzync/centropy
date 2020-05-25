@@ -33,9 +33,10 @@ const Layout = ({ location, title, children }) => {
       <h3
         style={{
           // fontFamily: `Montserrat, sans-serif`,
-          opacity: "0.4",
+          // opacity: "0.8",
           marginTop: 0,
-          fontFamily: 'monospace'
+          fontFamily: 'monospace',
+          color: "#06f"
         }}
       >
         <Link
