@@ -38,6 +38,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="All Notes" />
       <Bio />
+      <h4 style={{color: `rgba(0,0,0,.32)`, fontWeight: `bold`}}>All Notes</h4>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
@@ -46,6 +47,8 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
               <h3
                 style={{
                   marginBottom: rhythm(1 / 4),
+                  fontSize: '1.2rem',
+                  fontWeight: 'bold'
                 }}
               >
                 <Link 
@@ -60,7 +63,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
               </h3>
               {/* <small>{node.frontmatter.date}</small> */}
             </header>
-            <section>
+            <section style={{opacity: '.64'}}>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,

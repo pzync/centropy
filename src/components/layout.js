@@ -61,13 +61,15 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <main>{children}</main>
-      <hr
+      {/* <hr
           style={{
-            marginTop: rhythm(3),
+            marginTop: rhythm(1),
             
           }}
-        />
-      <footer>
+        /> */}
+      <footer style={{
+        marginTop: rhythm(4),
+      }}>
         © {new Date().getFullYear()} | For any idea / feedback, reach out on 
         {` `}
         <a href="https://twitter.com/shekhargurav">twitter</a>

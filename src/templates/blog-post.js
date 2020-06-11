@@ -21,7 +21,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <header>
           <h1
             style={{
-              marginTop: rhythm(4),
+              marginTop: rhythm(6),
               marginBottom: rhythm(2),
             }}
           >
@@ -41,11 +41,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <hr
           style={{
             marginBottom: rhythm(1),
+            marginTop: rhythm(4)
           }}
         />
         <footer>
           {/* <Bio /> */}
-          
+
         </footer>
       </article>
 
@@ -61,14 +62,14 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         >
           <li>
             {previous && (
-              <Link to={previous.fields.slug} rel="prev">
+              <Link to={previous.fields.slug} rel="prev" style={{fontWeight:`bold`}}> 
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
             {next && (
-              <Link to={next.fields.slug} rel="next">
+              <Link to={next.fields.slug} rel="next" style={{fontWeight:`bold`}}>
                 {next.frontmatter.title} →
               </Link>
             )}
