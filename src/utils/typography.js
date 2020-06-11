@@ -1,6 +1,7 @@
 import Typography from "typography"
 import Wordpress2016 from "typography-theme-wordpress-2016"
 require('typeface-inter')
+require('typeface-playfair-display')
 
 // the following overrides are based on Dan Abramov's Overreacted.io's 
 // github repo at:
@@ -26,7 +27,10 @@ Wordpress2016.overrideThemeStyles = () => {
       textRendering: "optimizeLegibility",
       '-webkitFontSmoothing': "antialiased"
     },
-    'h1 , h2 , h3 , h4 , h5 , h6 ' : {
+    'h1':{
+      fontFamily: "Playfair Display, Georgia, serif"
+    },
+    'h2 , h3 , h4 , h5 , h6 ' : {
       fontFamily: "-apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif"
     }
   }
