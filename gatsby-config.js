@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Centropy`,
+    title: `Centropy*`,
     author: {
       name: `Shekhar Gurav`,
-      summary: `Notes on managing yourself as a creator`,
+      summary: `Field notes on managing yourself as a creator`,
     },
-    description: `Shekhar Gurav's mostly self-directed notes on how to manage yourself as a Creator. To provide mental models and digital plus physical tools during the act of creation.`,
+    description: `Shekhar Gurav's field notes on managing yourself as a Creator. Tools and tactics for dealing with agonies, ecstasies & in-betweens while making something.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `shekhargurav`,
