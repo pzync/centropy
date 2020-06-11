@@ -11,10 +11,11 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h1
         style={{
+          ...scale(1.5),
           marginBottom: rhythm(1.5),
-          marginTop: 0,
-          fontFamily: 'monospace',
-          color: "#f06"
+          marginTop: rhythm(8),
+          fontSize: `4rem`,
+          color: `rgba(50,50,250,1)`
         }}
       >
         <Link
@@ -32,11 +33,9 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h3
         style={{
-          // fontFamily: `Montserrat, sans-serif`,
-          // opacity: "0.8",
           marginTop: 0,
-          fontFamily: 'monospace',
-          color: "#f06"
+          fontWeight: `bold`,
+          color: `rgba(50,50,250,1)`
         }}
       >
         <Link
