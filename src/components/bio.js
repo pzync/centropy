@@ -43,7 +43,7 @@ const Bio = () => {
         marginBottom: rhythm(2.5),
       }}
     >
-      <Image
+      {/* <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author.name}
         style={{
@@ -55,7 +55,7 @@ const Bio = () => {
         imgStyle={{
           borderRadius: `50%`,
         }}
-      />
+      /> */}
       <p>
         Notes on managing yourself as a Creator. Updated based on research & self-reflections. By <a href={`https://twitter.com/${social.twitter}`}>
           Shekhar Gurav
