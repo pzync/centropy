@@ -63,7 +63,8 @@ const Layout = ({ location, title, children }) => {
       <main>{children}</main>
       <hr
           style={{
-            marginBottom: rhythm(1),
+            marginTop: rhythm(3),
+            
           }}
         />
       <footer>

@@ -57,7 +57,7 @@ const Bio = () => {
         }}
       /> */}
       <p>
-      Field notes on managing yourself as a Creator. Tools and tactics for dealing with agonies, ecstasies & in-betweens while making something. Updated based on research and self-reflection. By <a href={`https://twitter.com/${social.twitter}`}>
+      Field notes on managing yourself as a Creator. Tools and tactics for dealing with agonies, ecstasies & in-betweens while creating something. Updated based on research and self-reflection. By <a href={`https://twitter.com/${social.twitter}`}>
           Shekhar Gurav</a>
       </p>
     </div>

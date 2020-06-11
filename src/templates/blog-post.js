@@ -21,8 +21,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <header>
           <h1
             style={{
-              marginTop: rhythm(1),
-              marginBottom: rhythm(1),
+              marginTop: rhythm(4),
+              marginBottom: rhythm(2),
             }}
           >
             {post.frontmatter.title}
@@ -44,7 +44,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           }}
         />
         <footer>
-          <Bio />
+          {/* <Bio /> */}
+          
         </footer>
       </article>
 
