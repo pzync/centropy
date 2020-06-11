@@ -12,7 +12,13 @@ Wordpress2016.overrideThemeStyles = () => {
       boxShadow: `none`,
     },
     a: {
-      color: "#06f"
+      // color: "#06f"
+      'text-decoration': `none`,
+      boxShadow: `inset 0 -6px 0 rgba(250,150,150,0.4)`,
+      color: `inherit`,
+    },
+    'a:hover': {
+      boxShadow: `inset 0 -24px 0 rgba(250,150,150,0.4)`,
     },
     body: {
       fontFamily: "-apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif",
