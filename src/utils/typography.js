@@ -31,7 +31,8 @@ Wordpress2016.overrideThemeStyles = () => {
       fontFamily: "Playfair Display, Georgia, serif"
     },
     'h2 , h3 , h4 , h5 , h6 ' : {
-      fontFamily: "-apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif"
+      fontFamily: "-apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif",
+      fontWeight: 'bold'
     }
   }
 }
